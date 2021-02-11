@@ -52,3 +52,5 @@ except:
 subprocess.call(['ffmpeg','-f','concat','-safe','0','-i','concat3.txt','-c','copy','FinalVideo3.mp4'])
 subprocess.call(['rm','FinalVideo.mp4'])
 subprocess.call(['rm','FinalVideo2.mp4'])
+
+# this is just for git
